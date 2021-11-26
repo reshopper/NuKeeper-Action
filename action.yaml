@@ -10,7 +10,7 @@ inputs:
     default: ${{ github.token }}
   args:
     description: "arguments to run the command with"
-    defaul: ""
+    default: ""
 runs:
   using: "docker"
   image: "Dockerfile"
