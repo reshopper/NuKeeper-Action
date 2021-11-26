@@ -8,8 +8,8 @@ inputs:
   token:
     description: "Personal access token (PAT) used to fetch the repository"
     default: ${{ github.token }}
-  args:
-    description: "arguments to run the command with"
+  options: 
+    description: "Options for the command"
     default: ""
 runs:
   using: "docker"
