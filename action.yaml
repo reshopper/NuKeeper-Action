@@ -18,5 +18,5 @@ runs:
     - "repo"
     - ${{ format('{0}{1}', 'https://github.com/', inputs.repository) }}
     - ${{ inputs.token }}
-    - ${{ inputs.args }}
+    - "--maxpackageupdates 20 --exclude (?i)^(nest). --consolidate"
     - -f PreferSingleRepository
