@@ -1,1 +1,1 @@
-FROM nukeeper/nukeeper:sdk-3.1
+FROM nukeeper/nukeeper:latest
